@@ -14,7 +14,7 @@ Program creates a Windows application that can be used to track and store sports
 two children.  It has text box display and input, as well as increment and decrement
 buttons.  Scores, entered either in the text box or with the increment/decrement buttons, are 
 validated for numerical, positive integer input.  Scoring can be loaded from a text file to 
-continue a previous score (File->Open).  New scores can be saved back to the file (File->Save).  
-Program demonstrates the use of layouts, spacers, menus, background colors, file streams, 
+continue a previous score (File->Open).  New scores can be saved back to the file (File->Save).  Program 
+demonstrates the use of layouts, spacers, menus, background colors, file streams, 
 images, action listers, fonts, mnemonics, and accelerators.
 
