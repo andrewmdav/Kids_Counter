@@ -35,30 +35,30 @@ import sun.rmi.transport.LiveRef;
 
 public class KidsCounter
 {	
-	//class-level variables
+    //class-level variables
+
+    //labels
+    private JLabel samLabel;
+    private JLabel bekahLabel;
+
+    //Text Boxes
+    private JTextField samText;
+    private JTextField bekahText;
+
+    //Buttons
+    private JButton samPlusBtn;
+    private JButton samMinusBtn;
+    private JButton bekahPlusBtn;
+    private JButton bekahMinusBtn;
 	
-	//labels
-	private JLabel samLabel;
-	private JLabel bekahLabel;
-	
-	//Text Boxes
-	private JTextField samText;
-	private JTextField bekahText;
-	
-	//Buttons
-	private JButton samPlusBtn;
-	private JButton samMinusBtn;
-	private JButton bekahPlusBtn;
-	private JButton bekahMinusBtn;
-	
-	//image icon 
+    //image icon 
     ImageIcon picKids;
     JLabel lblKidsPic;
     
     //background color
     Color contentColor = new Color(120, 135, 171);
 	
-	//window frame
+    //window frame
     private JFrame frame;
     private JPanel contentPane;
     
@@ -147,7 +147,7 @@ public class KidsCounter
         return menu;
     }
     
-  //create the Help menu, setting mnemonics and action listeners
+    //create the Help menu, setting mnemonics and action listeners
     private JMenu makeHelpMenu()
     {
         JMenu menu;
@@ -329,8 +329,6 @@ public class KidsCounter
         public void actionPerformed(ActionEvent ae)
         {        	        	
         	fc = new JFileChooser();
-//        	fc.setCurrentDirectory(new File("C:\\Users\\Andrew\\Documents\\Ed2Go\\Intermediate Java\\Programs"
-//        			+ "\\L12 - Collections3 with GUI"));
         	fc.showOpenDialog(frame);
             
             kidsFile = fc.getSelectedFile();
@@ -519,6 +517,5 @@ public class KidsCounter
             System.exit(0);
         }
     }    
-
 }
  
