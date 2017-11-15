@@ -297,7 +297,7 @@ public class KidsCounter
         	{
         		PrintStream oFile = new PrintStream(kidsFile);
         		oFile.println(bekahText.getText() + " " + samText.getText());
-            	oFile.close();
+            		oFile.close();
         	}
         	catch(FileNotFoundException ex)
         	{
@@ -367,7 +367,7 @@ public class KidsCounter
                         "I/O Error", 
                         JOptionPane.ERROR_MESSAGE);
                 System.exit(1);
-			}
+	    }
         }
     }
     
@@ -402,7 +402,7 @@ public class KidsCounter
                         "Entry is not an integer number\n\n" + nfe.toString(),
                         "Input Error", 
                         JOptionPane.ERROR_MESSAGE);                
-			}            
+	    }            
         }
     }
     
@@ -436,7 +436,7 @@ public class KidsCounter
                         "Entry is not an integer number\n\n" + nfe.toString(),
                         "Input Error", 
                         JOptionPane.ERROR_MESSAGE);                
-			}            
+	    }            
         }
     }
     
@@ -471,7 +471,7 @@ public class KidsCounter
                         "Input Error", 
                         JOptionPane.ERROR_MESSAGE);                
 			}            
-        }
+            }
     }
     
     //decrement Sam's score, validate positive integer input
