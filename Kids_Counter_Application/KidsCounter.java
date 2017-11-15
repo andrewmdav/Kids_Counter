@@ -504,7 +504,7 @@ public class KidsCounter
                         "Entry is not an integer number\n\n" + nfe.toString(),
                         "Input Error", 
                         JOptionPane.ERROR_MESSAGE);                
-			}                        
+	    }                        
         }
     }
     
