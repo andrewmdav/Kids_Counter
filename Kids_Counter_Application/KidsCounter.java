@@ -274,7 +274,6 @@ public class KidsCounter
         panel.add(Box.createHorizontalGlue());
         
         contentPane.add(panel);
-
     }
     
     /*Action Listeners*/
